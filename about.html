@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ermiyas Gera Fisha - About</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-gray-800">EGF</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="home.html" class="nav-link text-gray-700 hover:text-blue-600 font-medium">Home</a>
+                    <a href="about.html" class="nav-link text-blue-600 font-medium">About</a>
+                    <a href="services.html" class="nav-link text-gray-700 hover:text-blue-600 font-medium">Services</a>
+                    <a href="experience.html" class="nav-link text-gray-700 hover:text-blue-600 font-medium">Experience</a>
+                    <a href="contact.html" class="nav-link text-gray-700 hover:text-blue-600 font-medium">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-700">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="home.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-100">Home</a>
+                <a href="about.html" class="block px-3 py-2 text-blue-600 bg-gray-100">About</a>
+                <a href="services.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-100">Services</a>
+                <a href="experience.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-100">Experience</a>
+                <a href="contact.html" class="block px-3 py-2 text-gray-700 hover:bg-gray-100">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h1 class="text-4xl font-bold mb-8 text-gray-800">About Me</h1>
+        <p class="text-gray-700 leading-relaxed text-lg max-w-4xl mb-6">
+            I am Ermiyas Gera Fisha, a cybersecurity professional with over 10 years of diverse experience. 
+            My expertise lies in penetration testing, SIEM administration, threat hunting, and securing critical digital infrastructures.
+        </p>
+        <p class="text-gray-700 leading-relaxed text-lg max-w-4xl mb-6">
+            Over the years, I have worked with various organizations to identify vulnerabilities, design mitigation strategies, and educate teams on security best practices. My mission is to protect digital assets and contribute to safer cyber environments.
+        </p>
+        <!-- Add more about content as needed -->
+    </main>
+
+    <!-- Footer (same as home) -->
+    <footer class="bg-gray-800 text-white py-12 mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Ermiyas Gera Fisha</h3>
+                    <p class="text-gray-400 mb-4">
+                        Cybersecurity professional dedicated to protecting digital assets and building secure infrastructures.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.linkedin.com/in/ermiyasgera" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="mailto:ermiyasgera@gmail.com" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fas fa-envelope text-xl"></i>
+                        </a>
+                        <a href="tel:+251938047394" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fas fa-phone text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Services</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="services.html" class="hover:text-white transition duration-300">Penetration Testing</a></li>
+                        <li><a href="services.html" class="hover:text-white transition duration-300">Vulnerability Assessment</a></li>
+                        <li><a href="services.html" class="hover:text-white transition duration-300">Security Monitoring</a></li>
+                        <li><a href="services.html" class="hover:text-white transition duration-300">Training & Education</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="home.html" class="hover:text-white transition duration-300">Home</a></li>
+                        <li><a href="about.html" class="hover:text-white transition duration-300">About</a></li>
+                        <li><a href="services.html" class="hover:text-white transition duration-300">Services</a></li>
+                        <li><a href="contact.html" class="hover:text-white transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 Ermiyas Gera Fisha. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
